@@ -2,7 +2,7 @@ import socket
 
 
 class Server:
-    def __init__(self,host='127.0.0.1',port=4000,mode='ECHO'):
+    def __init__(self,host='127.0.0.1',port=4000,mode='BASIC'):
         self.host = host
         self.port = port
         self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
